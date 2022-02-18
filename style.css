@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+.site_header, .site_footer {
+    height: 100px;
+    background-color: yellow;
+}
+
+.sidebar {
+    width: 20%;
+    height: 200px;
+    background-color: pink;
+    float: left;
+}
+
+.content {
+    width: 56%;
+    height: 200px;
+    background-color: blue;
+    float: left;
+    margin: 0 2%;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.site_main {
+    margin: 1rem 0;
+}
